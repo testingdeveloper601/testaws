@@ -12,3 +12,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
+artifacts:
+  files:
+    - index.html
+  discard-paths: yes
